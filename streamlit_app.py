@@ -287,14 +287,10 @@ if page == "Single Prediction":
 
     with c2:
         st.markdown("### Decision Summary")
-        threshold = st.slider("Decision Threshold", 0.0, 1.0, float(threshold), 0.05,
-                            help="If probability ≥ threshold → predict Churn (1), else Stay (0).")
-        st.metric("Current Cutoff", f"{threshold:.2f}")
+        st.metric("Churn Decision Cutoff", f"{threshold:.2f}")
         st.caption(
-            "Adjust the cutoff to balance **false alarms** vs **missed churns**. "
-            "Higher threshold = stricter churn detection."
-        )
-
+            "The system decides a customer is **at risk of leaving** if their churn probability "
+            f"is **{threshold:.2f} or higher**. Otherwise, the customer is predicted to **stay**.")
 
 
     if submitted:
