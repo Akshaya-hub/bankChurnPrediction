@@ -1,0 +1,16 @@
+{
+  "model_name": "XGB",
+  "metrics": {
+    "test_roc_auc": 0.8501475281136299
+  },
+  "localization": {
+    "geography_mapping": {
+      "Urban (Colombo Metro)": "Germany",
+      "Semi-Urban (Kandy, Galle, Kurunegala)": "France",
+      "Rural (Jaffna, Monaragala, Anuradhapura)": "Spain"
+    },
+    "currency": "LKR",
+    "threshold": 0.1,
+    "notes": "LKR inputs (Balance/EstimatedSalary) are mapped via QuantileTransformers to the model's distribution; no dataset retraining required."
+  }
+}

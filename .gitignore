@@ -1,0 +1,39 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.log
+
+# Byte-compiled / cache
+.ipynb_checkpoints/
+.DS_Store
+
+# ------------------------
+# Virtual Environment
+# ------------------------
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# ------------------------
+# IDE & Editor Configs
+# ------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------
+# Jupyter Notebook
+# ------------------------
+*.ipynb_checkpoints
+jupyter_notebook_config.py
