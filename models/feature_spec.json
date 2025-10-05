@@ -10,7 +10,7 @@
       "Rural (Jaffna, Monaragala, Anuradhapura)": "Spain"
     },
     "currency": "LKR",
-    "threshold": 0.1,
+    "threshold": 0.5,
     "notes": "LKR inputs (Balance/EstimatedSalary) are mapped via QuantileTransformers to the model's distribution; no dataset retraining required."
   }
 }
